@@ -17,13 +17,14 @@ ValidOperator = False
 ValidNumber1  = True
 ValidNumber2  = True
 
+print("\n******************************************")
+print()
+print("\nPart 2: User Interaction and Input")  
+print()
+print("\n******************************************\n\n")
 
-print()
-print()
 Number1 = int(input("Input number 1:"))
 Number2 = int(input("Input number 2:"))
-
-
 
 
 operation = input("Choose an operation (+, -, *, /): ") 
@@ -53,3 +54,5 @@ if ((ValidOperator is True) and (ValidNumber1 is True) and (ValidNumber2 is True
 else :
     print("\nProblem occured'\n")
 
+print()
+print("\n******************************************\n\n")
