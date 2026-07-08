@@ -5,6 +5,7 @@
 #  3. Performs the chosen operation on the two numbers.
 #  4. Prints the result in a user-friendly way. For example: "7 * 3 = 21" (assuming the user chose 7, 3, and *).
 #
+
 # define boolean variable inititial state
 # 
 ValidOperator = False
