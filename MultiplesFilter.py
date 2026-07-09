@@ -9,14 +9,31 @@
 #
 #
 # 
+
+multiples_of_three =[]
 varlist =[]
+
 index = 0
 
-for i in range(1, 21):
+#
+
+for i in range(0, 21):
  #   print(i,  index)
     
-    varlist.append(index)
-    index = index+1 # update index counter
+    varlist.append(i)
+   
+    if i % 3 == 0:
+        multiples_of_three.append(i)
+        
+
  #  
+print("\n")
+print("\n list of number 0-20")
 print(varlist)
-    
+
+print("")
+print("\n Multiples of 3")
+print(multiples_of_three)
+print()
+print()
+
