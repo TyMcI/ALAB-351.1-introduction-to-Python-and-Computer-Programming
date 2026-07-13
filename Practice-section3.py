@@ -1,22 +1,20 @@
 n = 0
 
 while n!=3:
-    print (n)
     n+=1
+    print (n)
 
+
+print()
+print()
+
+for NN in range(1,4):
+    print(NN)
 else:
-    print (n,"else")
-
-print()
-
-for 1 in range(0,3):
-    print()
-else
-    print(1, "else")
+    print(NN, "else\n")
 
 
-print (not(x>3 and x<10))
-print()
+
 
 
 # Code left shifyt and right shif efrom notes

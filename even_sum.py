@@ -7,10 +7,10 @@
 #
 Even_Sum=0
 #
-for Num in range(0, 50):
+for Num in range(1, 51):
     if ((Num % 2) == 0):
         Even_Sum = Even_Sum + Num
-        print(Num, Num % 2, "The running sum is:", Even_Sum)
+        print(Num, "The running sum is:", Even_Sum)
       
     
 print(Num,"The sum of the even numbers is:", Even_Sum)

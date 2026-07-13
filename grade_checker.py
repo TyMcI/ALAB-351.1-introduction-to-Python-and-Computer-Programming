@@ -42,6 +42,5 @@ else:
     print("\nYour grade is passing ",User_Letter_grade, " Congratulation!!!!")
 #
 #
-print()
-print()
+#print()
 #
